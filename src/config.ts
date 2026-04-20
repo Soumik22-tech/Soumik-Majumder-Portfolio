@@ -123,11 +123,13 @@ export const config = {
         },
         {
             id: 3,
-            title: "Project Three",
-            category: "Category Name",
-            technologies: "Tech Stack Used",
-            image: "/images/placeholder.webp",
-            description: "Description of your third project goes here. Briefly explain the purpose and main features of the project."
+            title: "RepoXray",
+            category: "Dev Tool / AI",
+            technologies: "React 18, Vite, GitHub REST API, Gemini AI",
+            image: "/images/project3.png",
+            link: "https://repo-xray-pink.vercel.app/",
+            github: "https://github.com/Soumik22-tech/RepoXray",
+            description: "RepoXray is a brutally honest, AI-powered repository analyzer. Combining GitHub REST API with Gemini 3 Flash, it performs a surgical X-ray scan of your codebase to identify architectural sins and spaghetti logic."
         },
         {
             id: 4,

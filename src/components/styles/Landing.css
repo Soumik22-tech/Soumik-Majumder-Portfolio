@@ -6,7 +6,15 @@
 /* Remove mobile photo and ensure 3D character is always hidden on mobile */
 @media only screen and (max-width: 768px) {
   .character-model {
-    display: none !important;
+    display: block !important;
+    position: absolute !important;
+    width: 200vw !important; /* Make canvas wide enough so model is visible */
+    height: 70vh !important; 
+    z-index: 1;
+    bottom: -10vh !important;
+    left: 50% !important;
+    pointer-events: none;
+    transform: translateX(-50%) scale(0.8) !important;
   }
 
   .landing-section,
@@ -123,28 +131,9 @@
     display: none;
   }
 
-  /* Show mobile photo */
+  /* Hide mobile photo as we use the 3D model instead */
   .mobile-photo {
-    display: block;
-    position: relative !important;
-    width: 100%;
-    max-width: 380px;
-    margin: 0 auto;
-    z-index: 1;
-    order: 2;
-    /* Second: Photo */
-    /* Add fade mask to bottom */
-    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
-    pointer-events: none;
-    transform: none !important;
-  }
-
-  .mobile-photo img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    filter: drop-shadow(0 0 40px rgba(16, 185, 129, 0.4));
+    display: none !important;
   }
 }
 
