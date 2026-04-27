@@ -123,21 +123,23 @@ export const config = {
         },
         {
             id: 3,
-            title: "RepoXray",
-            category: "Dev Tool / AI",
-            technologies: "React 18, Vite, GitHub REST API, Gemini AI",
+            title: "Maieo AI",
+            category: "AI / MLLM",
+            technologies: "Python, FastAPI, Pydantic, Framer Motion, Next.js",
             image: "/images/project3.png",
-            link: "https://repo-xray-pink.vercel.app/",
-            github: "https://github.com/Soumik22-tech/RepoXray",
-            description: "RepoXray is a brutally honest, AI-powered repository analyzer. Combining GitHub REST API with Gemini 3 Flash, it performs a surgical X-ray scan of your codebase to identify architectural sins and spaghetti logic."
+            link: "https://maieo-ai.vercel.app/",
+            github: "https://github.com/Soumik22-tech/MaieoAI",
+            description: "Maieo AI is a multi-agent AI orchestration platform that eliminates hallucinations and bias by forcing multiple LLMs into a structured, adversarial debate."
         },
         {
             id: 4,
-            title: "Project Four",
-            category: "Category Name",
-            technologies: "Tech Stack Used",
-            image: "/images/placeholder.webp",
-            description: "Description of your fourth project goes here. Briefly explain the purpose and main features of the project."
+            title: "RepoXray",
+            category: "Dev Tool / AI",
+            technologies: "React 18, Vite, GitHub REST API, Gemini AI",
+            image: "/images/project4.png",
+            link: "https://repo-xray-pink.vercel.app/",
+            github: "https://github.com/Soumik22-tech/RepoXray",
+            description: "RepoXray is a brutally honest, AI-powered repository analyzer. Combining GitHub REST API with Gemini 3 Flash, it performs a surgical X-ray scan of your codebase to identify architectural sins and spaghetti logic."
         },
         {
             id: 5,
