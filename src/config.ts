@@ -143,11 +143,13 @@ export const config = {
         },
         {
             id: 5,
-            title: "Project Five",
-            category: "Category Name",
-            technologies: "Tech Stack Used",
-            image: "/images/placeholder.webp",
-            description: "Description of your fifth project goes here. Briefly explain the purpose and main features of the project."
+            title: "CURA",
+            category: "AI / Healthcare",
+            technologies: "React, Express.js, PostgreSQL, Clerk",
+            image: "/images/project5.png",
+            link: "https://cura-one-chi.vercel.app/",
+            github: "https://github.com/Soumik22-tech/cura",
+            description: "CURA is an AI-powered medical web application that assists clinicians and patients with diagnostic insights, appointment management, and personalized care recommendations."
         },
         {
             id: 6,
