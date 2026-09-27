@@ -133,16 +133,24 @@ export const config = {
         },
         {
             id: 4,
-            title: "RepoXray",
-            category: "Dev Tool / AI",
-            technologies: "React 18, Vite, GitHub REST API, Gemini AI",
-            image: "/images/project4.png",
-            link: "https://repo-xray-pink.vercel.app/",
-            github: "https://github.com/Soumik22-tech/RepoXray",
-            description: "RepoXray is a brutally honest, AI-powered repository analyzer. Combining GitHub REST API with Gemini 3 Flash, it performs a surgical X-ray scan of your codebase to identify architectural sins and spaghetti logic."
+            title: "TokeniZer",
+            category: "Browser Extension / Developer Tools",
+            technologies: "JavaScript, Chrome Extension APIs, Claude API/SSE, o200k_base, HTML/CSS",
+            image: "/images/project6.png",
+            github: "https://github.com/Soumik22-tech/TokeniZer",
+            description: "A privacy-first browser extension that locally tracks Claude token usage, context-window utilization, cache duration, and session and weekly limits across Chrome, Edge, and Firefox."
         },
         {
             id: 5,
+            title: "Open-agentKiT",
+            category: "AI Agents / Developer Tools",
+            technologies: "Python, Claude API, Git, PostgreSQL, MySQL, SQLite, FastAPI, Flask, pytest",
+            image: "/images/project7.png",
+            github: "https://github.com/Soumik22-tech/Open-agentKiT",
+            description: "An open-source collection of 20 production-ready AI-powered CLI agents for software development, security, research, data analysis, documentation, and engineering workflows."
+        },
+        {
+            id: 6,
             title: "CURA",
             category: "AI / Healthcare",
             technologies: "React, Express.js, PostgreSQL, Clerk",
@@ -152,29 +160,15 @@ export const config = {
             description: "CURA is an AI-powered medical web application that assists clinicians and patients with diagnostic insights, appointment management, and personalized care recommendations."
         },
         {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/placeholder.webp",
-            description: "A flood prediction model specifically designed for Kolkata's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/placeholder.webp",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
+            title: "RepoXray",
+            category: "Dev Tool / AI",
+            technologies: "React 18, Vite, GitHub REST API, Gemini AI",
+            image: "/images/project4.png",
+            link: "https://repo-xray-pink.vercel.app/",
+            github: "https://github.com/Soumik22-tech/RepoXray",
+            description: "RepoXray is a brutally honest, AI-powered repository analyzer. Combining GitHub REST API with Gemini 3 Flash, it performs a surgical X-ray scan of your codebase to identify architectural sins and spaghetti logic."
         },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/placeholder.webp",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
-        }
     ],
     contact: {
         email: "soumikmajumder65@gmail.com",
