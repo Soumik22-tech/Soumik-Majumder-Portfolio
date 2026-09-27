@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { MdArrowOutward } from "react-icons/md";
 import { config } from "../config";
 import "./MyWorks.css";
 
@@ -27,6 +28,20 @@ const MyWorks = () => {
               <p className="myworks-card-category">{project.category}</p>
               <p className="myworks-card-description">{project.description}</p>
               <p className="myworks-card-tech">{project.technologies}</p>
+              {(project.link || project.github) && (
+                <div className="myworks-card-links">
+                  {project.link && (
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
+                      Live Site <MdArrowOutward />
+                    </a>
+                  )}
+                  {project.github && (
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      Repository <MdArrowOutward />
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         ))}
